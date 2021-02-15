@@ -22,6 +22,10 @@ To run this on youtr local machine, you need to do the following:
 
 once done, run:
 
+`docker stack deploy -c docker-compose.yml checkers-stack`
+
+when no longer needed, you can remove the stack by running:
+
 `docker stack rm checkers-stack`
 
 3. you should be able to access the application via localhost:3000 in your browser

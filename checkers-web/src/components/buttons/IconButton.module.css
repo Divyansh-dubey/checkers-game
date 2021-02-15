@@ -1,0 +1,25 @@
+.root {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    font-size: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: .3s ease-in-out;
+}
+
+.root:hover {
+    transform: scale(1.25);
+    transition: .3s ease-in-out;
+}
+
+.disabled { 
+    color: var(--disabledTextColor);
+}

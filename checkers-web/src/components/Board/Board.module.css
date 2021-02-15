@@ -1,0 +1,7 @@
+.root {
+    position: relative;
+    
+    transform-style:preserve-3d;
+    transform: perspective(100rem) rotateX(45deg);
+}
+

@@ -1,0 +1,42 @@
+.root {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: fixed;
+    color: var(--textColor);
+}
+
+.myName {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.oponentName {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.gameName {
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.board {
+    height: 75vh;
+    width: 75vh;
+}
+
+.backBtn {
+    background-color: transparent;
+    color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    padding: .5rem;
+    cursor: pointer;
+}

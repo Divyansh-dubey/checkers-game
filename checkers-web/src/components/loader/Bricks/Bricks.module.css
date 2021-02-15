@@ -1,0 +1,107 @@
+.root {
+    position: relative;
+    height: 3rem;
+    width: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brick {
+    height: 29%;
+    width: 30%;
+    margin: 1%;
+    box-sizing: border-box;
+    background-color: #d33;
+    box-shadow: 1px 1px 1px 1px #a11;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.brick:nth-child(4) {
+    margin: 1% 1% 1% 17%;
+}
+
+.brick:nth-child(5) {
+    margin: 1% 10% 1% 1%;
+}
+
+@keyframes firstBrick {
+    0% { opacity: 0; transform: translateY(-100%) rotateZ(45deg); }
+    10% { opacity: 1; transform: translateY(0); }
+}
+
+.brick:nth-child(8) {
+    animation-name: firstBrick;
+}
+
+@keyframes secondBrick {
+    0% { opacity: 0; transform: translateY(-50%) translateX(-50%) rotateZ(-15deg); }
+    10% { opacity: 0; transform: translateY(-50%) translateX(-50%) rotateZ(-15deg); }
+    20% { opacity: 1; transform: translateY(0); }
+}
+
+.brick:nth-child(7) {
+    animation-name: secondBrick;
+}
+
+@keyframes thirdBrick {
+    0% { opacity: 0; transform: translateY(-75%) translateX(-15%) rotateZ(-75deg); }
+    20% { opacity: 0; transform: translateY(-75%) translateX(-15%) rotateZ(-75deg); }
+    30% { opacity: 1; transform: translateY(0); }
+}
+
+.brick:nth-child(6) {
+    animation-name: thirdBrick;
+}
+
+@keyframes fourthBrick {
+    0% { opacity: 0; transform: translateY(-50%) translateX(-50%) rotateZ(-15deg); }
+    30% { opacity: 0; transform: translateY(-50%) translateX(-50%) rotateZ(-15deg); }
+    40% { opacity: 1; transform: translateY(0); }
+}
+
+.brick:nth-child(5) {
+    animation-name: fourthBrick;
+}
+
+@keyframes fifthBrick {
+    0% { opacity: 0; transform: translateY(-100%) rotateZ(45deg); }
+    40% { opacity: 0; transform: translateY(-100%) rotateZ(45deg); }
+    50% { opacity: 1; transform: translateY(0); }
+}
+
+.brick:nth-child(4) {
+    animation-name: fifthBrick;
+}
+
+@keyframes sixthBrick {
+    0% { opacity: 0; transform: translateY(-75%) translateX(30%) rotateZ(90deg); }
+    50% { opacity: 0; transform: translateY(-75%) translateX(30%) rotateZ(90deg); }
+    60% { opacity: 1; transform: translateY(0); }
+}
+
+.brick:nth-child(3) {
+    animation-name: sixthBrick;
+}
+
+@keyframes eighthBrick {
+    0% { opacity: 0; transform: translateY(-50%) translateX(-50%) rotateZ(-15deg); }
+    60% { opacity: 0; transform: translateY(-50%) translateX(-50%) rotateZ(-15deg); }
+    70% { opacity: 1; transform: translateY(0); }
+}
+
+.brick:nth-child(1) {
+    animation-name: eighthBrick;
+}
+
+@keyframes seventhBrick {
+    0% { opacity: 0; transform: translateY(-50%) translateX(-50%) rotateZ(-15deg); }
+    74% { opacity: 0; transform: translateY(-200%) rotateZ(360deg); }
+    75% { opacity: 1; transform: translateY(-200%) rotateZ(360deg); }
+    80% { opacity: 1; transform: translateY(-200%) rotateZ(0); }
+    90% { opacity: 1; transform: translateY(0); }
+}
+
+.brick:nth-child(2) {
+    animation-name: seventhBrick;
+}

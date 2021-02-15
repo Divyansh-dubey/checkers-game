@@ -1,0 +1,26 @@
+.root {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #876;
+    font-weight: bold;
+}
+
+.white {
+    background-color: rgb(212, 194, 194);    
+}
+
+.black {
+    background-color: rgb(46, 41, 41);
+}
+
+.hightlighted:hover {
+    outline: 2px solid rgb(55, 184, 55);
+    outline-offset: -4px;
+}
+
+.canSelect {
+    cursor: pointer;
+    outline: 2px solid rgb(184, 184, 55);
+}

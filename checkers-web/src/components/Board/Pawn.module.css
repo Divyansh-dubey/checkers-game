@@ -1,0 +1,40 @@
+.root {
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white {
+    background-color: #baa;   
+    border: 2px solid #bbb;
+    box-shadow: 0px 1px 0px 1px #eee;
+}
+
+.black {
+    background-color: #654;
+    border: 2px solid #666;
+    box-shadow: 0px 3px 0px 1px #111;
+}
+
+.hightlighted {
+    border-color: rgb(184, 184, 55);
+}
+
+.hightlighted:hover {
+    border-color: rgb(55, 184, 55);
+}
+
+.selected {
+    border-color: rgb(184, 55, 55);
+}
+
+.whiteKing {
+    color: #654;
+}
+
+.blackKing {
+    color: #baa;
+}

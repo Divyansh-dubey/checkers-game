@@ -1,0 +1,51 @@
+.root {
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--backgroundColor);
+    border: 1px solid var(--borderColor);
+    position: relative;
+}
+
+.code > div:not(:first-child):not(:last-child) {
+    padding-left: 1em;
+}
+
+.input {
+    background: transparent;
+    outline: none;
+    border: none;
+    font-family: monospace;
+    color: var(--textColor);
+}
+
+.icon {
+    display: none;
+    margin-left: 1em;
+}
+
+.save {
+    cursor: pointer;
+}
+
+.save:hover {
+    color: var(--activeTextColor);
+}
+
+.save:hover > .icon {
+    display: inline;
+}
+
+.valueContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closeBtn {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+}

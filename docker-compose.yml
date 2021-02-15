@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+
+  checkers-mongo:
+    image: mongo
+    networks:
+      - checkers-network
+
+  checkers-backend:
+    image: checkers/backend
+    build: ./checkers-api/src/Checkers.Api/
+    ports: 
+      - 5001:80
+    networks:
+      - checkers-network
+
+  checkers-frontend:
+    image: checkers/frontend
+    build: ./checkers-web/
+    ports:
+      - 3000:80
+    networks:
+      - checkers-network
+
+networks:
+  checkers-network:
+    name: checkers-network
+    driver: overlay
+    attachable: true  

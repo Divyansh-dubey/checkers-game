@@ -1,0 +1,36 @@
+.root {
+    color: var(--textColor);
+    font-family: monospace;
+}
+
+.line {
+    margin-left: 2em;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item:hover {
+    color: var(--activeTextColor);
+}
+
+.item:hover > .icon {
+    display: inline;
+}
+
+.icon { 
+    margin-left: 1em;
+    display: none;
+    cursor: pointer;
+}
+
+.name {
+    position: relative;
+    bottom: .1em;
+}
+
+.editBtn {
+    margin-left: 1rem;
+    font-size: 1rem;
+}

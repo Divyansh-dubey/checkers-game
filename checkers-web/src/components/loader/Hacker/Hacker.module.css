@@ -1,0 +1,9 @@
+.root {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: monospace;
+}
+
+span {
+    margin: .5em;
+}

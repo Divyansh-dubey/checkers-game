@@ -1,0 +1,30 @@
+.root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+
+  background-color: var(--backgroundColor);
+}
+
+:root {
+  --borderColor: #ddd;
+  --backgroundColor: #333;
+  --overlayOpacity: 0.8;
+  
+  --textColor: #ddd;
+  --disabledTextColor: #999;
+
+  --activeTextColor: #d33;
+}
+
+.test {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}

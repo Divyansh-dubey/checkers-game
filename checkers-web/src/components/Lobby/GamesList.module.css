@@ -1,0 +1,28 @@
+.root {
+    list-style-type: none;
+    color: var(--textColor);
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    cursor: pointer;
+    padding-left: 2em;
+}
+
+.item > span {
+    display: none;
+}
+
+.item:hover {
+    color: var(--activeTextColor);
+}
+
+.item:hover > span {
+    display: inline;
+}
+
+.icon {
+    margin-left: 1em;
+}

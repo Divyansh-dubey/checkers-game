@@ -3,20 +3,20 @@
 
 ## Repository structure
 
-This is a monorepository, containing both backend and frontend of the game. You can find a docker compose file responsible for building the entire project in th root directory. Building the project from the root directory will set up the database and build both front and the backend part for you.
+This is a monorepository, containing both backend and frontend of the game. You can find a docker compose file responsible for building the entire project in the root directory. Building the project from the root directory will set up the database and build both frontend and the backend part for you.
 
 ## Technology used
 
-1. react (create-react-app) + typescript
-2. asp .net core + signalR
-3. mongo db
-4. docker
+1. React (create-react-app) + typescript
+2. ASP .net core + signalR
+3. Mongo db
+4. Docker
 
 ## Running locally
 
-To run this on youtr local machine, you need to do the following:
-1. clone this repo
-2. in the root directory run:
+To run this on your local machine, you need to do the following:
+1. Clone this repo
+2. In the root directory run:
 
 `docker-compose build`
 

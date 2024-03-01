@@ -1,9 +1,9 @@
-# Containerized checkers game
+# Checkers game
 ### A simple checkers game wrapped with docker containers
 
-## Repo structure
+## Repository structure
 
-This is a monorepo, containing both backend and frontend of the game. You can find a docker compose file responsible for building the entire project in th root directory. Building the project from the root directory will set up the database and build both front and the backend part for you.
+This is a monorepository, containing both backend and frontend of the game. You can find a docker compose file responsible for building the entire project in th root directory. Building the project from the root directory will set up the database and build both front and the backend part for you.
 
 ## Technology used
 
